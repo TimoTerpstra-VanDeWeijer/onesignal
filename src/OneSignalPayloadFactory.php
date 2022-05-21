@@ -1,6 +1,6 @@
 <?php
 
-namespace NotificationChannels\OneSignal;
+namespace VanDeWeijer\OneSignal;
 
 use Illuminate\Notifications\Notification;
 

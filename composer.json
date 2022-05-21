@@ -20,6 +20,10 @@
           "name": "David Llop",
           "email": "hello@davidllop.com",
           "homepage": "http://davidllop.com"
+        },
+        {
+            "name": "Timo Terpstra",
+            "email": "timo.terpstra@vandeweijer.pro"
         }
     ],
     "require": {

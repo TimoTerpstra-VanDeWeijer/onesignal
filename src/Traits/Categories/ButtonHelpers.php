@@ -1,9 +1,9 @@
 <?php
 
-namespace NotificationChannels\OneSignal\Traits\Categories;
+namespace VanDeWeijer\OneSignal\Traits\Categories;
 
-use NotificationChannels\OneSignal\OneSignalButton;
-use NotificationChannels\OneSignal\OneSignalWebButton;
+use VanDeWeijer\OneSignal\OneSignalButton;
+use VanDeWeijer\OneSignal\OneSignalWebButton;
 
 trait ButtonHelpers
 {

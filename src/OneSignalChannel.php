@@ -1,10 +1,10 @@
 <?php
 
-namespace NotificationChannels\OneSignal;
+namespace VanDeWeijer\OneSignal;
 
 use Berkayk\OneSignal\OneSignalClient;
 use Illuminate\Notifications\Notification;
-use NotificationChannels\OneSignal\Exceptions\CouldNotSendNotification;
+use VanDeWeijer\OneSignal\Exceptions\CouldNotSendNotification;
 use Psr\Http\Message\ResponseInterface;
 
 class OneSignalChannel
@@ -24,7 +24,7 @@ class OneSignalChannel
      * @param \Illuminate\Notifications\Notification $notification
      *
      * @return \Psr\Http\Message\ResponseInterface
-     * @throws \NotificationChannels\OneSignal\Exceptions\CouldNotSendNotification
+     * @throws \VanDeWeijer\OneSignal\Exceptions\CouldNotSendNotification
      */
     public function send($notifiable, Notification $notification)
     {

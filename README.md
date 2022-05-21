@@ -41,7 +41,7 @@ If you're installing the package in Laravel 5.4 or lower, you must import the se
 // config/app.php
 'providers' => [
     ...
-    NotificationChannels\OneSignal\OneSignalServiceProvider::class,
+    VanDeWeijer\OneSignal\OneSignalServiceProvider::class,
 ],
 ```
 
@@ -65,9 +65,9 @@ Add your OneSignal App ID and REST API Key to your `config/services.php`:
 Now you can use the channel in your `via()` method inside the notification:
 
 ``` php
-use NotificationChannels\OneSignal\OneSignalChannel;
-use NotificationChannels\OneSignal\OneSignalMessage;
-use NotificationChannels\OneSignal\OneSignalWebButton;
+use VanDeWeijer\OneSignal\OneSignalChannel;
+use VanDeWeijer\OneSignal\OneSignalMessage;
+use VanDeWeijer\OneSignal\OneSignalWebButton;
 use Illuminate\Notifications\Notification;
 
 class AccountApproved extends Notification

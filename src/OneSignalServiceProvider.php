@@ -1,10 +1,10 @@
 <?php
 
-namespace NotificationChannels\OneSignal;
+namespace VanDeWeijer\OneSignal;
 
 use Berkayk\OneSignal\OneSignalClient;
 use Illuminate\Support\ServiceProvider;
-use NotificationChannels\OneSignal\Exceptions\InvalidConfiguration;
+use VanDeWeijer\OneSignal\Exceptions\InvalidConfiguration;
 
 class OneSignalServiceProvider extends ServiceProvider
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace NotificationChannels\OneSignal\Test;
+namespace VanDeWeijer\OneSignal\Test;
 
 use Illuminate\Notifications\Notification;
-use NotificationChannels\OneSignal\OneSignalMessage;
+use VanDeWeijer\OneSignal\OneSignalMessage;
 
 class TestNotification extends Notification
 {

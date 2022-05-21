@@ -1,6 +1,6 @@
 <?php
 
-namespace NotificationChannels\OneSignal\Exceptions;
+namespace VanDeWeijer\OneSignal\Exceptions;
 
 class InvalidConfiguration extends \Exception
 {

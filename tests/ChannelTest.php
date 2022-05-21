@@ -1,12 +1,12 @@
 <?php
 
-namespace NotificationChannels\OneSignal\Test;
+namespace VanDeWeijer\OneSignal\Test;
 
 use Berkayk\OneSignal\OneSignalClient;
 use GuzzleHttp\Psr7\Response;
 use Mockery;
-use NotificationChannels\OneSignal\Exceptions\CouldNotSendNotification;
-use NotificationChannels\OneSignal\OneSignalChannel;
+use VanDeWeijer\OneSignal\Exceptions\CouldNotSendNotification;
+use VanDeWeijer\OneSignal\OneSignalChannel;
 use Orchestra\Testbench\TestCase;
 use Psr\Http\Message\ResponseInterface;
 
@@ -15,7 +15,7 @@ class ChannelTest extends TestCase
     /** @var Mockery\Mock */
     protected $oneSignal;
 
-    /** @var \NotificationChannels\OneSignal\OneSignalChannel */
+    /** @var \VanDeWeijer\OneSignal\OneSignalChannel */
     protected $channel;
 
     public function setUp(): void

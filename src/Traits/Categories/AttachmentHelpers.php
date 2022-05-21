@@ -1,6 +1,6 @@
 <?php
 
-namespace NotificationChannels\OneSignal\Traits\Categories;
+namespace VanDeWeijer\OneSignal\Traits\Categories;
 
 trait AttachmentHelpers
 {

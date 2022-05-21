@@ -1,15 +1,15 @@
 <?php
 
-namespace NotificationChannels\OneSignal\Test;
+namespace VanDeWeijer\OneSignal\Test;
 
 use Illuminate\Support\Arr;
-use NotificationChannels\OneSignal\OneSignalButton;
-use NotificationChannels\OneSignal\OneSignalMessage;
-use NotificationChannels\OneSignal\OneSignalWebButton;
+use VanDeWeijer\OneSignal\OneSignalButton;
+use VanDeWeijer\OneSignal\OneSignalMessage;
+use VanDeWeijer\OneSignal\OneSignalWebButton;
 
 class MessageTest extends \PHPUnit\Framework\TestCase
 {
-    /** @var \NotificationChannels\OneSignal\OneSignalMessage */
+    /** @var \VanDeWeijer\OneSignal\OneSignalMessage */
     protected $message;
 
     public function setUp(): void

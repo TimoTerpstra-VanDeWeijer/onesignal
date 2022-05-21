@@ -1,6 +1,6 @@
 <?php
 
-namespace NotificationChannels\OneSignal\Test;
+namespace VanDeWeijer\OneSignal\Test;
 
 class NotifiableArray
 {
