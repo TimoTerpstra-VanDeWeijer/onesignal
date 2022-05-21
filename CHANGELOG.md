@@ -2,6 +2,9 @@
 
 All Notable changes to `onesignal` will be documented in this file
 
+## 2.4.0 - 2022-05-21
+- Add support for laravel 9
+
 ## 2.3.0 - 2021-01-05
 - Add support for PHP 8
 
