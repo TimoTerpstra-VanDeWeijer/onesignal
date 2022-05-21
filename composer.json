@@ -1,8 +1,6 @@
 {
-    "name": "laravel-notification-channels/onesignal",
-    "description": "OneSignal Notifications driver",
-    "homepage": "https://github.com/laravel-notification-channels/onesignal",
-    "license": "MIT",
+    "name": "vandeweijer/onesignal",
+    "description": "OneSignal Notifications driver forked from https://github.com/laravel-notification-channels/onesignal",
     "authors": [{
             "name": "Marcel Pociot",
             "email": "hello@marcelpociot.com",
