@@ -39,12 +39,12 @@
     },
     "autoload": {
         "psr-4": {
-            "NotificationChannels\\OneSignal\\": "src"
+            "VanDeWeijer\\OneSignal\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "NotificationChannels\\OneSignal\\Test\\": "tests"
+            "VanDeWeijer\\OneSignal\\Test\\": "tests"
         }
     },
     "scripts": {
