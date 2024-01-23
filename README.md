@@ -1,7 +1,7 @@
 ## Importend note 
-We did not build this package. We cloned it from https://github.com/laravel-notification-channels/onesignal and made it compatibel with laravel 9. This code is open for all to use.
+We did not build this package. We cloned it from https://github.com/laravel-notification-channels/onesignal and made it compatible with Laravel 10. This code is open for all to use. Just so you know, I did not thoroughly test it..... only the stuff I used..... use at own risk
 
-# OneSignal notifications channel for Laravel 5.3+
+# OneSignal notifications channel for Laravel 5.3+ -> updated to Laravel 10
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/laravel-notification-channels/onesignal.svg?style=flat-square)](https://packagist.org/packages/laravel-notification-channels/onesignal)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
